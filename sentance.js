@@ -56,5 +56,7 @@ btn2.addEventListener("click", function(){
         userName.value = "";    
         // no varible declaration above, but accessed with below
         resultArea.innerHTML = "Gibberish soon to appear here.";
+
+        // Now that resultArea has been hijacked, this won't work...
     
 });
