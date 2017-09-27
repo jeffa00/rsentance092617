@@ -21,7 +21,6 @@ var conclusion = [
 ]
 
 
-
 function getRandomInt(min, max){
     // returns the smallest integer greater than or equal to 
     //  the given number
@@ -52,7 +51,10 @@ btn1.addEventListener("click", function(){
 });
 
 btn2.addEventListener("click", function(){
-    
+        // userName.innerText did not work, but the below did.  Must relate
+        // to the variable declaration above.
+        userName.value = "";    
+        // no varible declaration above, but accessed with below
         resultArea.innerHTML = "Gibberish soon to appear here.";
     
 });
